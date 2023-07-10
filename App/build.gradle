@@ -1,0 +1,19 @@
+// Archivo build.gradle del proyecto
+
+// Configuración del proyecto
+buildscript {
+    repositories {
+        google() // Repositorio de Google
+        jcenter() // Repositorio de JCenter
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.4.0' // Versión del complemento de Android Gradle
+    }
+}
+
+allprojects {
+    repositories {
+        google() // Repositorio de Google
+        jcenter() // Repositorio de JCenter
+    }
+}
